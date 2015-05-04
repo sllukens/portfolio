@@ -1,0 +1,68 @@
+html {
+  background: url('bridge.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  margin-top: 0%;
+}
+
+#head{
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+a {
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  background-color: black;
+}
+
+#nav li {
+  display: inline;
+  float: center;
+  font-size: 2em;
+  margin-top: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+h1 {
+  color: white;
+  margin-top:0%;
+  margin-bottom: 0%;
+  font-size: 10em;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+p{
+  margin-top: 0%;
+  float: left;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+img{
+  margin-top: 0%;
+  float: right;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="work.css">
+</head>
+<div id="content">
+<title> Samantha Lukens - Portfolio </title>
+<meta charset="utf-8">
+<body>
+  <div id="maincontent">
+  <div id="head">
+  <nav>
+  <ul id="nav">
+    <li><a href="index.html" id="home">home</a></li>
+    <li><a href="about.html" id="about">about</a></li>
+    <li><a href="portfoliofinal.html" id="portfolio">portfolio</a></li>
+    <li><a href="contact.html" id="contact">contact</a></li>
+  </ul>
+</div>
+</div>
+</div>
+</body>
+</div>
+<div id=main>
+<div id=text>
+  <p id="hawk"> the hawk </p>
+<p> Layout Editor for the Saint Joseph's University newspaper, <em>The Hawk </em>, for the Spring 2015 semester. Worked with writers to convey the meaning of their articles through type, images, and graphics.</p>
+</div>
+
+<img name="slide" src="hawk/hawk1.jpg" />
+<div id=script>
+<script language="JavaScript">
+  var i = 0;
+    var path = new Array();
+
+    // LIST OF IMAGES
+    path[0] = "hawk/rshawk1.jpg";
+    path[1] = "hawk/rshawk2.jpg";
+    path[2] = "hawk/rshawk3.jpg";
+    path[3] = "hawk/rshawk4.jpg";
+    path[4] = "hawk/rshawk5.jpg";
+    path[5] = "hawk/rshawk6.jpg";
+    path[6] = "hawk/rshawk7.jpg";
+    path[7] = "hawk/rshawk8.jpg";
+    path[8] = "hawk/rshawk9.jpg";
+    path[9] = "hawk/rshawk10.jpg";
+    path[10] = "hawk/rshawk11.jpg";
+
+
+    function swapImage()
+    {
+      document.slide.src = path[i];
+      if(i < path.length - 1) i++; else i = 0;
+      setTimeout("swapImage()",4000);
+    }
+    window.onload=swapImage;
+</script>
+</div>
+</div>
